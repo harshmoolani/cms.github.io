@@ -1,0 +1,19 @@
+{
+  "name": "Swift Real Estate",
+  "version": "1.0.0",
+  "description": "Swift Real Estate Admin Dashboard",
+  "main": "js/admin.js",
+  "authors": [
+    "Theme Makker"
+  ],
+  "license": "",
+  "homepage": "",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

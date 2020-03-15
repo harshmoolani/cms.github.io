@@ -1,0 +1,125 @@
+﻿.property{
+    
+    .property-card{
+        
+        padding-bottom:10px;
+        border-bottom:1px solid rgba(160,160,160,.2);
+        
+        &:last-child{
+            border:none;
+        }
+
+        .property-image {
+            display: block;
+            height: 230px;
+            position: relative;
+            overflow: hidden;
+            
+            .property-label {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                text-transform: uppercase;
+                line-height: 10px;
+            }
+        }
+        
+        .listingInfo{
+            
+            .detail{
+                
+            }
+        }
+        
+        .property-action {
+            padding: 10px 0px;
+            background:#f7f7f7;
+            
+            a{
+                padding:3px 15px;
+                margin-right:10px;
+                font-size: 16px;
+                display:inline-block;
+                
+                span{
+                    line-height: 20px;
+                    vertical-align: top;
+                    padding-left: 7px;
+                }
+            }
+        }
+    }
+}
+
+.proprerty-features{
+    li{
+        line-height:36px;
+    }
+}
+
+.member-card{
+    text-align:center;
+    
+    .header-dropdown{
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        padding: 0;
+        margin: 0;
+        
+        li{
+            a{
+                padding: 10px 15px;
+                &:after{
+                    display: none;
+                }
+            }
+        }
+    }
+    
+    &.verified{
+        .member-thumb{
+            img{
+                border:1px solid #5cb85c;
+            }
+            i{
+                color:#5cb85c;
+            }            
+        }
+    }
+
+    .text-pink{
+        display:block;
+    }
+
+    .member-thumb{
+        
+        position:relative;
+        display:inline-block;
+        
+        img{
+            padding:4px;
+            border:1px solid #ccc;            
+        }
+        i{
+            position:absolute;
+            bottom:0;
+            right:30px;
+        }
+    }
+    
+    .social-links{
+     
+        li{
+            a{
+                i{
+                    color:#999;
+                    &:hover{
+                        color:#444;
+                    }
+                }
+            }
+        }
+    }
+}
+[type=reset], [type=submit], button, html [type=button]{-webkit-appearance: none;}
